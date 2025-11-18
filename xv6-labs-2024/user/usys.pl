@@ -36,8 +36,8 @@ entry("getpid");
 entry("sbrk");
 entry("sleep");
 entry("uptime");
-<<<<<<< HEAD
+
 entry("trace"); # Tạo stub cho system call trace dùng để bật theo dõi syscall.
-=======
+
 entry("sysinfo");
->>>>>>> 62f4a61 (Bai 2)
+

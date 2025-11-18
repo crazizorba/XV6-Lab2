@@ -194,11 +194,9 @@ UPROGS=\
 	$U/_grind\
 	$U/_wc\
 	$U/_zombie\
-<<<<<<< HEAD
 	$U/_trace\
-=======
 	$U/_sysinfotest\
->>>>>>> 62f4a61 (Bai 2)
+
 
 
 

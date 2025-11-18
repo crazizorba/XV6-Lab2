@@ -94,7 +94,6 @@ sys_uptime(void)
 }
 
 uint64
-<<<<<<< HEAD
 sys_trace(void)
 {
   int mask;
@@ -102,7 +101,8 @@ sys_trace(void)
   myproc()->tracemask = mask;
   return 0;
 }
-=======
+
+uint64
 sys_sysinfo(void)
 {
   struct sysinfo info;
@@ -119,4 +119,4 @@ sys_sysinfo(void)
 
   return 0;
 }
->>>>>>> 62f4a61 (Bai 2)
+
