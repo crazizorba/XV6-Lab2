@@ -36,3 +36,4 @@ entry("getpid");
 entry("sbrk");
 entry("sleep");
 entry("uptime");
+entry("trace"); # Tạo stub cho system call trace dùng để bật theo dõi syscall.

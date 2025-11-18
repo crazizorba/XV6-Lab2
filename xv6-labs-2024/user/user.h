@@ -19,6 +19,7 @@ int mkdir(const char*);
 int chdir(const char*);
 int dup(int);
 int getpid(void);
+int trace(int); // Bật theo dõi syscall cho tiến trình hiện tại và con theo bitmask.
 char* sbrk(int);
 int sleep(int);
 int uptime(void);

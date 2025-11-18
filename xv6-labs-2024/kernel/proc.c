@@ -316,6 +316,7 @@ fork(void)
 
   acquire(&wait_lock);
   np->parent = p;
+  np->tracemask = p->tracemask; // inherit tracemask from parent
   release(&wait_lock);
 
   acquire(&np->lock);
